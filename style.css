@@ -1,0 +1,52 @@
+body{
+    background-color: #2d3436;
+}
+
+h1{
+  font-size: 36px;
+  font-family: arial;
+  text-align: center;
+}
+
+h2{
+  font-size: 18px;
+  font-family: arial;
+  text-align: justify;
+}
+
+.btn{
+    position: relative;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-family: "arial";
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid #ff7675;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+    width: 200px;
+    font-weight: bold;
+  }
+  .btn::before{
+    background: #ff7675;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.9s ease;
+  }
+  
+  .btn1::before{
+    width: 100%;
+    height: 0%;
+    transform: translate(-50%,-50%) rotate(-45deg);
+  }
+  .btn1:hover::before{
+    height: 600%;
+  }
