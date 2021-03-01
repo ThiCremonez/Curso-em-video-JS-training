@@ -3,15 +3,26 @@ body{
 }
 
 h1{
-  font-size: 36px;
+  font-size: 40px;
   font-family: arial;
   text-align: center;
+  color: white;
 }
 
 h2{
   font-size: 18px;
   font-family: arial;
-  text-align: justify;
+  text-align: center;
+  color: white;
+}
+
+a{
+  color: rgb(85, 173, 228);
+  text-decoration: none;
+}
+
+img{
+  border-radius: 10px;
 }
 
 .btn{
@@ -22,13 +33,14 @@ h2{
     font-size: 14px;
     font-family: "arial";
     text-decoration: none;
-    margin: 30px 0;
-    border: 2px solid #ff7675;
-    padding: 14px 60px;
+    margin-top: -5px;
+    border-bottom: 5px solid #ff7675;
+    border-top:0px solid #ff7675;
+    padding: 18px 60px;
     text-transform: uppercase;
     overflow: hidden;
     transition: 1s all ease;
-    width: 200px;
+    width: 205px;
     font-weight: bold;
   }
   .btn::before{
@@ -50,3 +62,14 @@ h2{
   .btn1:hover::before{
     height: 600%;
   }
+
+
+.square{
+  width: 323px;
+  height: 400px;
+  border: 10px solid  #ff7675;
+  position: relative;
+  float: left;
+  margin: 30px;
+  border-radius: 15px;
+}
