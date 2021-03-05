@@ -5,30 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Age Verificator</title>
+    <title>Age Checker</title>
 </head>
 <body>
     <header>
-            <h1></h1><strong>Age Verificator</strong></h1>
+            <h1></h1><strong>Age Checker</strong></h1>
     </header>
     <section>
         <div id="data">
             <p id="data1">Age birthday:
                 <input type="number" id="txtyear" name="txtyear" min="0">
             </p>
-            <p id="data1">Sex:
+            <p id="data1">Gener:
                 <input type="radio" id="male" name="radsex" checked>
                 <label for="male">Male</label>
                 <input type="radio" id="female" name="radsex">
                 <label for="female">Female</label>
             </p>
             <p>
-                <input type="button" value="Check">
+                <input type="button" value="verify" onclick="verify()">
             </p>
-            <p id="data3">Complete to see the result!</p>
         </div>
         <div id="res">
-        photo
+            <p id="data3">Complet to see the result!
+            </p>
         </div>
     </section>
     <footer>
