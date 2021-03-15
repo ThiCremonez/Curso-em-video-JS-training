@@ -44,7 +44,7 @@ function verify() {
             }
         }
         res.style.textAlign = 'center'     
-        data3.innerHTML = `Detected ${gener}, ${age} years old`
-        res.appendChild(img)
+        data3.innerHTML = `Detected ${gener}, ${age} years old<br><br>`
+        data3.appendChild(img)
     }
 
